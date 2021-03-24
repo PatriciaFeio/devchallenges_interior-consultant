@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Interior Consultant</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="">This Interior</a>
+      <button
+        type="button"
+        class="overlay-menu-btn overlay-menu-open"
+        aria-haspopup="true"
+        aria-label="Show Menu"
+      >
+        <span class="material-icons md-light md-24"> menu </span>
+      </button>
+      <nav class="main-nav--overlay">
+        <button
+          type="button"
+          class="overlay-menu-btn overlay-menu-close"
+          aria-haspopup="true"
+          aria-label="Close Menu"
+        >
+          <span class="material-icons md-light"> close </span>
+        </button>
+        <ul class="main-nav__primary">
+          <li class="nav-item"><a class="nav-item-link" href="">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="">Collection</a>
+          </li>
+          <li class="nav-item"><a class="nav-item-link" href="">About</a></li>
+          <li class="nav-item"><a class="nav-item-link" href="">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="main-nav">
+        <ul class="main-nav__secondary">
+          <li class="nav-item"><a class="nav-item-link" href="">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="">Collection</a>
+          </li>
+          <li class="nav-item"><a class="nav-item-link" href="">About</a></li>
+          <li class="nav-item"><a class="nav-item-link" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article class="article" role="main">
+        <section class="article-section">
+          <h1 class="article-section--title">Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <p class="article-section--read-more">
+            Read more
+            <span
+              ><a href="" class="read-more-icon material-icons md-light md-18"
+                >trending_flat</a
+              ></span
+            >
+          </p>
+        </section>
+
+        <figure class="article-figure__primary">
+          <img src="img/photo1.png" alt="" />
+          <div class="figure-wrapper">
+            <figure class="article-figure__secondary">
+              <img
+                class="article-figure__secondary--image"
+                src="img/photo2.png"
+                alt=""
+              />
+              <figcaption class="secondary-figcaption">
+                <p class="article-figure__secondary--name">Aliza Webber</p>
+                <p class="article-figure__secondary--job">Interior designer</p>
+              </figcaption>
+            </figure>
+            <h2 class="secondary-figcaption--title">
+              Designed in 2020 by Aliza Webber
+            </h2>
+          </div>
+        </figure>
+      </article>
+    </main>
+
+    <footer class="page-footer">
+      <p>
+        created by
+        <span
+          ><a
+            href="https://devchallenges.io/portfolio/PatriciaFeio"
+            target="_blank"
+            >Patricia Feio</a
+          ></span
+        >
+        - devChallenges.io
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
