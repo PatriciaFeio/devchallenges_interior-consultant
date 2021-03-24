@@ -253,7 +253,7 @@ body {
 /*  footer section  */
 
 /*  to let the child element inherit the padding from the parent, 
-then the child can be positioned to match the parents widht and padding
+then the child can be positioned to match the parents width and padding
 see: 
 https://stackoverflow.com/questions/17115344/absolute-positioning-ignoring-padding-of-parent
 */
@@ -396,10 +396,3 @@ https://stackoverflow.com/questions/17115344/absolute-positioning-ignoring-paddi
     line-height: 22px;
   }
 }
-
-/* @media (max-width: 765px) {
-
-  .main-nav {
-    display: none;
-  }
-} */
